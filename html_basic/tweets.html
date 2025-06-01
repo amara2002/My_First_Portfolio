@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Tweets</title>
+  <meta charset="UTF-8">
+  <title>Tweets Page</title>
 </head>
 <body>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <h1>Check Out My Tweets</h1>
+  <main>
+    <article>
+      <h1>Check Out My Tweets</h1>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Here’s a sample tweet from OpenAI:<br><br>
+        Building safer AI is a shared responsibility. Learn more: 
+        <a href="https://t.co/XZYeBzE5eg">https://t.co/XZYeBzE5eg</a></p>
+        &mdash; OpenAI (@OpenAI) <a href="https://twitter.com/OpenAI/status/1725178320438594045">November 16, 2023</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
-  <!-- Embedded Tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Here’s a sample tweet from OpenAI: <br><br>
-    Building safer AI is a shared responsibility. Our new Preparedness Framework outlines how we’ll assess and respond to catastrophic risks.<br><br>
-    Learn more: <a href="https://t.co/XZYeBzE5eg">https://t.co/XZYeBzE5eg</a></p>
-    &mdash; OpenAI (@OpenAI) <a href="https://twitter.com/OpenAI/status/1725178320438594045">November 16, 2023</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  <br>
-  <a href="index.html">← Back to homepage</a>
-  <p><a href="tweets.html">Check out my tweets →</a></p>
-
-
+  <footer>
+    <p>Made by Amara Fuad Nyei - <a href="https://yourlink.com" target="_blank">here</a></p>
+  </footer>
 </body>
 </html>
-
